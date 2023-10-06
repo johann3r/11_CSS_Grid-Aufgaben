@@ -6,10 +6,9 @@
 
 .article-wrapper {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   height: 50vh;
-  width: 97vw;
   gap: 8px;
   margin: 16px 8px 80px 8px;
 }
@@ -61,10 +60,9 @@
 
 .article-wrapper-2 {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   height: 50vh;
-  width: 97vw;
   gap: 8px;
   margin: 16px 8px 80px 8px;
 }
